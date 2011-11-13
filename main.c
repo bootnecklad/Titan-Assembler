@@ -41,7 +41,7 @@ void decode(char* line, ins* bytes) {
     bytes[0].type = 0; //default instruction just contains an instruction
     bytes[1].type = 2; //default 2nd instruction is no instruction
 
-    if (strncmp(line, "0x", 2) == 0) { // checks if line contains value.
+    if (strncmp(line, "0X", 2) == 0) { // checks if line contains value.
         char newline[1]; // stores hex value
         unsigned char value;
         strncpy(newline, line + 2, 2);
