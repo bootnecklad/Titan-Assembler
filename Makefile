@@ -6,4 +6,4 @@ OBJ = main.o
 assmbler : $(OBJ)
 
 clean :
-	rm -f qdbot $(OBJ)
+	rm -f assembler $(OBJ)
