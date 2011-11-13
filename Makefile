@@ -3,7 +3,7 @@
 
 OBJ = main.o
 
-assmbler : $(OBJ)
+assembler : $(OBJ)
 	$(CC) -o $@ $^
 
 clean :
