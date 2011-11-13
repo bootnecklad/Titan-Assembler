@@ -1,0 +1,7 @@
+File:   assembler.c
+Author: fc
+This file is part of fc's assembler
+Copyright (C) 2011 fc
+Created on November 5, 2011, 5:17 PM
+
+Usage: asm input-file output-file
