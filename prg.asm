@@ -1,0 +1,12 @@
+/DATA
+   0x01
+
+/SETUP
+   LDM B 0x0000
+   MOV B,A
+
+/MAIN
+   ADD
+   MOV A,B
+   STM A 0xFFFF
+   JMP 0x0003

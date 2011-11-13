@@ -1,5 +1,5 @@
 /*
- * File:   assembler.c
+ * File:   main.c
  * Author: fc
  * This file is part of fc's assembler
  * Copyright (C) 2011 fc
