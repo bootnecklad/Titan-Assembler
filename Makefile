@@ -4,6 +4,7 @@
 OBJ = main.o
 
 assmbler : $(OBJ)
+	$(CC) -o $@ $^
 
 clean :
 	rm -f assembler $(OBJ)
